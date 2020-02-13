@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" href="public/style/style.css">
+	<script src="public/js/jquery-3.2.1.js"></script>
+</head>
+<body>
+	<div class="header">
+		<span>Тестовое задание</span>
+	</div>
+	<div class="content">
+		<div class="left">
+			<form class="regform" >
+				<span class="title">Регистрация</span>
+				<span>Имя</span>
+				<input type="text" name="name" placeholder="Username" required>
+				<span class="tit emmail">E-mail</span>
+				<input id="email" class="input" type="text" name="email" placeholder="some@exemple.com" required>
+				<span class="tit">Пароль</span>
+				<input id="pass" class="input" type="password" name="pass" minlength="6" required>
+				<span class="tit">Повторите пароль</span>
+				<input id="repass" class="input" type="password" name="repass" minlength="6" required>
+				<input class="but" type="submit" value="Зарегистрироваться">
+			</form>
+		</div>
+			<div class="right">
+			<form class="login" >
+				<span class="title">Вход</span>
+				<span class="tit">E-mail</span>
+				<input class="input" type="text" name="email" placeholder="some@exemple.com" required>
+				<span class="tit">Пароль</span>
+				<input class="input" type="password" name="pass" minlength="6" required>
+				<input class="but" type="submit" value="Войти">
+			</form>
+		</div>
+	</div>
+<script src="public/js/common.js"></script>
+</body>
+</html>
