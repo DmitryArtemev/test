@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-09-10T14:10:38.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.6.4" etag="P31aHb-GVi0Vx6lLM8BJ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-10T15:37:43.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="EmfgbMMdk27vjJPKxW_b" version="24.6.4" type="github">
   <diagram name="Страница — 1" id="w9OistWn-1czqhOBbfpn">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-18" value="UserCompany" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-19" value="companyId (Primary)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-18">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-22" value="UserProfile" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-24" value="companyId" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-22">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-25" value="roleId" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-22">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-23" value="userId (Primary)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-22">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-26" value="UserRole" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-28" value="companyId" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-26">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-27" value="roleId (Primary)" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-26">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-39" value="name" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-26">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-40" value="timeCreated" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-26">
+          <mxGeometry y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-42" value="timeUpdated" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-26">
+          <mxGeometry y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-41" value="status" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-26">
+          <mxGeometry y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OwBmFIWD_9kXV2jtk9FC-24" target="OwBmFIWD_9kXV2jtk9FC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwBmFIWD_9kXV2jtk9FC-28" target="OwBmFIWD_9kXV2jtk9FC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OwBmFIWD_9kXV2jtk9FC-25" target="OwBmFIWD_9kXV2jtk9FC-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-44" value="UserRoleAssigment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-46" value="objectId" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-44">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-45" value="roleId (Primary)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-44">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-47" value="actions (array)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-44">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwBmFIWD_9kXV2jtk9FC-45" target="OwBmFIWD_9kXV2jtk9FC-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-53" value="SystemObject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-54" value="objectId (Primary)" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="OwBmFIWD_9kXV2jtk9FC-53">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OwBmFIWD_9kXV2jtk9FC-54" target="OwBmFIWD_9kXV2jtk9FC-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-58" value="По поводу этой связи не уверен, возможно нет смысла привязывать настройки роли к SystemObject так как есть кастомные страницы (например Должники и др.), но при создании доступов нужно покрыть все необходимые объекты" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=west;base=21;size=30;position=0.64;position2=0.64;" vertex="1" parent="1">
+          <mxGeometry x="770" y="170" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-60" value="В этой таблице хранятся все объекты системы (такие как Vehicle, Payment и т.д.). По сути они созданы для каждой таблицы и нужно для работы cmf&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="90" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-61" value="Таблица для хранения общей информации о роли.&lt;br&gt;Доступ к ней будет статическим, по примеру того как сейчас устроены доступы. Доступна только админу" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.25;position2=0.25;base=40;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-80" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OwBmFIWD_9kXV2jtk9FC-62" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Данная таблица будет хранит настройки доступа к конкретному объекту системы. Исходя из текущих доступов у нас есть такие типы: create / update / index / read / view / delete / status.&amp;nbsp;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Некоторые из этих параметров не особо нужны, но были добавлены по умолчанию. Например параметр status у нас нигде не используется так как используем проверку update, как и параметр view тоже не нужен так как у нас нет отдельных просмотров, вместо них используются формы которые проверяют update.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Так же есть кастомные действия которые не используют проверку объектов, а имеют проверку в контроллере (через массив ролей). Для таких действий нужно предусмотреть возможность отдельной настройки.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;В итоге данная таблица будет хранить ссылку на объект системы и массив действий доступных для привязанной роли (такой подход видится самым простым в реализации и довольно гибким). Исходя из реализации системы основным набором проверок будет такой: index/create/update/delete.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Для кастомных действий можно будет переиспользовать уже существующий набор через указание в контроллере соответствия, либо добавить дополнительную проверку с уникальным именем (например transfer, для действий переноса из компании в компанию). Так как для хранения используется массив то наименования не ограничены.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Примером реализации будет такая структура:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Профиль пользователя будет привязан к роли(например менеджер). Сама роль хранит только наименование и связь с компанией. К роли будут привязаны записи по каждому объекту системы&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(например Vehicle)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;с массивом допустимых действий (&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;например [&#39;update&#39;, &#39;index&#39;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;).&amp;nbsp; Это значит, что менеджер имеет возможность просматривать список автомобилей, а так же обновлять и просматривать форму автомобиля.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;В итоге получится гибкий инструмент создания ролей и их настройки к каждому объекту системы, но записей в таблице будет достаточно много, сейчас в системе 32 объекта, т.е для каждой роли в каждой компании нужно будет создать 32 записи, при учете что сейчас ролей 10. Получается что бы покрыть текущую систему из 3х компаний потребуется 960 записей в таблице&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;UserRoleAssigment и 30 записей в таблице&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;UserRole&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;P.s. Вопрос хранения объектов системы. Есть два варианта либо привязываться к таблице&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;SystemObject, что в целом логично, но для кастомных страниц придется использовать права объектов. Это немного ограничивает гибкость, но добавляет целостности системе. Либо опираясь на таблицу&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;SystemObject формировать статический массив объектов, так получится создавать отдельную категорию для кастомных страниц, что добавляет гибкости, но целостность системы страдает, можно потеряться в именованиях. Мне больше нравится привязка к&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;SystemObject. Также есть проблема с набором действий, их скорее всего придется хранить в моделях статически, либо можно добавить отдельную колонку для&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;SystemObject и хранить в таблице. Для вывода наверное лучше хранить в таблице, но это надо на практике проверять.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=east;size=40;position=0.13;position2=0.13;base=59;align=left;spacingTop=12;spacing=12;spacingLeft=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-680" width="600" height="800" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
